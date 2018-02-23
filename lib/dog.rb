@@ -5,15 +5,24 @@ class Dog
     @breed = breed
   end
 
-  def name
+  def get_name
     @name
   end
 
-  def breed
+  def get_breed
     @breed
   end
+
+  def set_breed=(value)
+    @breed = value
+  end
+
+  def set_name=(value)
+    @name = value
+  end
+
 
 
 end
 
-fido = Dog.new('fido', 'beagle')
+dog1 = Dog.new('fido', 'beagle')
