@@ -5,22 +5,19 @@ class Dog
     @breed = breed
   end
 
-  def get_name
+  def name
     @name
   end
 
-  def get_breed
+  def breed
     @breed
   end
 
-  def set_breed=(value)
+  def breed=(value)
     @breed = value
   end
 
-  def set_name=(value)
+  def name=(value)
     @name = value
   end
-
-
-
 end
